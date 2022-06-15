@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Evol Biznes",
+    "slug": "evol-biznes-app",
+    "version": "1.2.4",
+    "orientation": "portrait",
+    "icon": "./assets/applogo.png",
+    "splash": {
+      "image": "./assets/applogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "notification":{
+      "icon":"./assets/applogo.png"
+   },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "versionCode": 7,
+      "icon": "./assets/applogo.png",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/applogo.png",
+        "backgroundColor": "#50dbb6"
+      },
+      "googleServicesFile": "./google-services.json",
+      "useNextNotificationsApi": true,
+      "permissions": [],
+      "package": "com.za1000.evolbiznes"
+    },
+    "web": {
+      "favicon": "./assets/applogo.png"
+    }
+  }
+}

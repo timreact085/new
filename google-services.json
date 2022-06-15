@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "848990827884",
+    "project_id": "evolbiznes-39e43",
+    "storage_bucket": "evolbiznes-39e43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848990827884:android:a05710ec680690d98faf49",
+        "android_client_info": {
+          "package_name": "com.za1000.evolbiznes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848990827884-4uoejah1tmcq03mc7dl80pm16387sg1v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWB4wEUNGtz2InLMdcOabqS__Kg3bn6ZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848990827884-4uoejah1tmcq03mc7dl80pm16387sg1v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
