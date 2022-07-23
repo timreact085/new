@@ -1,0 +1,247 @@
+    .App {
+        font-family: sans-serif;
+        text-align: center;
+    }
+    
+    body {
+        background-image: url('../../assets/imgs/r6.jpg');
+        width: 100%;
+        height: 100%;
+    }
+    
+    .slider-container {
+        position: relative;
+        width: 550px;
+        height: 400px;
+        background-color: black;
+        margin: 0 auto;
+        margin: 10px;
+        margin-top: 190px;
+    }
+    
+    .slide {
+        border-radius: 5px;
+        background: green;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        margin: 10px;
+        border: 2px solid blue;
+    }
+    
+    .slide[data-page="0"] {
+        border-radius: 15%;
+        background-image: url('https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?fit=crop&format=jpg&crop=4560,2565,x790,y784,safe');
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+    }
+    
+    .slide[data-page="1"] {
+        border-radius: 15%;
+        background-image: url('https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?fit=crop&format=jpg&crop=4560,2565,x790,y784,safe');
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+    }
+    
+    .slide[data-page="2"] {
+        border-radius: 15%;
+        background-image: url('https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?fit=crop&format=jpg&crop=4560,2565,x790,y784,safe');
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+    }
+    
+    .slide[data-page="3"] {
+        border-radius: 15%;
+        background-image: url('https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?fit=crop&format=jpg&crop=4560,2565,x790,y784,safe');
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+    }
+    
+    .slide[data-page="4"] {
+        border-radius: 15%;
+        background-image: url('https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?fit=crop&format=jpg&crop=4560,2565,x790,y784,safe');
+        background-repeat: no-repeat;
+        background-size: 100% 100%
+    }
+    
+    .dots {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .dot-container {
+        padding: 20px;
+        cursor: pointer;
+        background-color: black;
+        margin-top: -7px;
+    }
+    
+    .dot {
+        width: 10px;
+        height: 10px;
+        background: rgba(255, 255, 255, 0.5);
+        border-radius: 50%;
+        position: relative;
+    }
+    
+    .dot-highlight {
+        background: red;
+        border-radius: 50%;
+        width: 14px;
+        height: 14px;
+        position: absolute;
+        top: -2px;
+        left: -2px;
+    }
+    
+    h1c {
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 1;
+    }
+    
+    h2c {
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 1.2;
+        opacity: 0.75;
+    }
+    
+    .word-wrapper {
+        white-space: nowrap;
+    }
+    
+    .container1 {
+        width: 100%;
+    }
+    
+    .expertise {
+        width: 100%;
+        height: 600px;
+        margin-bottom: 100px;
+        .expertise__title {
+            text-align: center;
+            padding-top: 90px;
+            font-size: 35px;
+        }
+        .expertise__text {
+            margin: 0 auto;
+            width: 900px;
+            margin-top: 80px;
+            font-size: 25px;
+            border: 2px solid blue;
+            border-radius: 15px;
+            padding: 40px;
+        }
+        .expertise__btn {
+            position: absolute;
+            width: 100px;
+            height: 40px;
+            background-color: purple;
+            color: #fff;
+            font-weight: bold;
+            border-radius: 5px;
+            border: none;
+            margin-left: 40%;
+            margin-top: -22px;
+        }
+    }
+    
+    .section3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        padding-bottom: 130px;
+    }
+    
+    .border {
+        border-bottom: 2px solid blue;
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+    .section4 {
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        margin-bottom: 50px;
+    }
+    
+    .footer {
+        background-color: black;
+        .footer__container {
+            width: 75%;
+            background-color: black;
+            margin: 0 auto;
+            padding-top: 30px;
+        }
+        .footer__first {
+            color: white;
+        }
+        .border {
+            border: 2px solid white;
+            margin-top: 20px;
+            width: 100%;
+        }
+        .footer__center {
+            display: flex;
+            color: white;
+            .footer__centerLeft {
+                display: flex;
+                width: 70%;
+                .footer__centerLogo {
+                    margin-top: 20px;
+                }
+                &.footer__centerLeft ul {
+                    display: flex;
+                    list-style: none;
+                    margin-top: 30px;
+                    & a {
+                        margin-left: 60px;
+                        font-size: 20px;
+                        color: white;
+                    }
+                }
+            }
+            .footer__centerRight {
+                padding-top: 20px;
+                display: flex;
+                width: 40%;
+                justify-content: space-around;
+                align-items: center;
+                .footer__centerRightLink {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: white;
+                    border-radius: 50%;
+                    width: 40px;
+                    height: 40px;
+                    color: black;
+                }
+            }
+        }
+        .footer__third {
+            margin-top: 30px;
+            padding-bottom: 30px;
+            display: flex;
+            & ul {
+                display: flex;
+                margin-left: -25px;
+                & li a {
+                    margin: 15px;
+                    font-size: 11px;
+                    color: red;
+                }
+            }
+            .footer__thirdRightLink {
+                margin-left: 47px;
+                color: white;
+            }
+        }
+    }

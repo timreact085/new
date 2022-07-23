@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": true,
+      "allowJs": true,
+      "jsx": "react",
+      "types": ["react/next", "react-dom/next"],
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+        "noImplicitAny": true,
+
+    "strictNullChecks": true,
+      "module": "es6",
+      
+      "sourceMap": true,
+      "target": "es6",
+      
+      "esModuleInterop": true,
+      "types": [ "node" ],
+      "typeRoots": [
+        "node_modules/@types"
+      ],
+
+      
+      "lib": [
+        "es2017",
+        "dom",
+        "es6"
+      ]
+    },
+
+
+ 
+
+    "include": [
+      "src/**/*",
+      "./node_modules/**/*"
+    ],
+    "exclude": [
+      "dist", "build", "node_modules"
+  ]
+  }

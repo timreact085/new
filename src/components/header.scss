@@ -1,0 +1,191 @@
+:root {
+    --color-primary: #0073ff;
+    --color-white: #e9e9e9;
+    --color-black: #141d28;
+    --color-black-1: #212b38;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.menu-bar {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    position: fixed;
+    margin-bottom: 100px;
+    background: #9972bf;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .fas {
+        float: right;
+        margin-left: 10px;
+        padding-top: 3px;
+    }
+    .logo {
+        color: var(--color-white);
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .logo span {
+        color: var(--color-primary);
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        & li {
+            /* width: 120px; */
+            margin-top: 20px;
+            padding: 10px 20px;
+            /* text-align: center; */
+            position: relative;
+            padding-bottom: 30px;
+            & .mainA {
+                display: block;
+                color: #fff;
+                height: 60px;
+                width: 170px;
+                text-align: center;
+                padding-left: 1px;
+                padding-right: 30px;
+                padding-top: 20px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                transition: all 0.2s ease;
+                font-size: 14px;
+                margin-left: -20px;
+            }
+        }
+        & li:hover .dropdown-menu {
+            display: block;
+            position: absolute;
+            left: 130;
+            top: 100%;
+            padding-left: 20px;
+            width: 220px;
+        }
+        & li:hover .dropdown-menu ul {
+            display: block;
+            padding: 10px;
+            background-color: #9972bf;
+        }
+        & li:hover .dropdown-menu ul li {
+            width: 200px;
+        }
+        & li a {
+            font-size: 20px;
+            color: var(--color-white);
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        & li a:hover {
+            color: var(--color-primary);
+        }
+        & ul li:hover {
+            width: 200px;
+        }
+    }
+    .dropdown-menu {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        display: none;
+        z-index: 100;
+        padding-bottom: 20px;
+        margin-left: -25px;
+        &ul li {
+            width: 200px;
+        }
+        & ul li .pr {
+            position: absolute;
+            width: 100%;
+            padding: 0;
+            padding-top: 8px;
+            margin-left: -30px;
+            text-align: center;
+            height: 40px;
+        }
+        & ul li .pr:hover {
+            background-color: green;
+        }
+        & ul li a {
+            color: #fff;
+            padding: 25px;
+        }
+        .dropdown-menu-1 {
+            display: flex;
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        & ul li:hover .dropdown-menu-1 {
+            display: block;
+            position: absolute;
+            left: 190px;
+            top: 0;
+            background: #9972bf;
+            width: 200px;
+            padding-bottom: 36px;
+        }
+        & ul li:hover .dropdown-menu-1 ul li a {
+            color: #fff;
+        }
+        & ul li .dropdown-menu-1 ul li a:hover {
+            color: var(--color-primary);
+        }
+    }
+    .tIcon {
+        position: absolute;
+        margin-left: 40px;
+    }
+    .icon {
+        width: 25px;
+        display: inline-block;
+    }
+    .ddIcon {
+        // font-size: 30px;
+        // position: absolute;
+        // margin-left: 75px;
+        // margin-top: -40px;
+        // color: purple;
+        content: "";
+        position: absolute;
+        top: -30px;
+        left: 55%;
+        transform: translateX(-50%);
+        z-index: 1;
+        border: 15px solid;
+        border-color: transparent transparent #9972bf transparent;
+    }
+}
+
+.hero {
+    height: calc(100vh - 80px);
+    background-position: center;
+}
+
+.headerRight {
+    display: flex;
+    width: 150px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 10px;
+    .menu {
+        font-size: 35px;
+    }
+}
+
+.cool {
+    display: block;
+}
+
+.notCool {
+    display: none;
+}

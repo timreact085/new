@@ -1,0 +1,12 @@
+
+<svg height="100" width="100" xmlns="<http://www.w3.org/2000/svg>" >
+  <polygon points="60,10 50, 10 40,30 50,30" style="fill:#428f79;stroke:none;stroke-width:1" />
+  
+  <polygon points="72,10 62, 10 52,30 62,30" style="fill:red;stroke:none;stroke-width:1" />
+  
+  <polygon points="84,10 74, 10 64,30 74,30" style="fill:green;stroke:none;stroke-width:1" />
+  
+  <text x="25" y="45" fill="#428f79">PROJECT</text>
+  <text x="25" y="57" fill="#22bcc9" style="font-size: smaller;">MANAGEMENT HUB</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
